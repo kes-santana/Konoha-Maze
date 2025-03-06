@@ -7,8 +7,8 @@ namespace Konoha_Maze
         static void Main(string[] args)
         {
             Start_End Visual = new Start_End();
-            Play playGame= new Play();
-            // Visual.StartGame();
+            Play playGame = new Play();
+            Visual.StartGame();
             while (true)
             {
                 Visual.Menu();
@@ -105,7 +105,8 @@ namespace Konoha_Maze
                             default:
                                 throw new NotImplementedException();
                         }
-
+                        
+                        Console.Clear();
                         Console.WriteLine("\n\tPlayer 2 por favor escoja un personaje de la lista escribiendo el nombre.\n");
                         foreach (KeyValuePair<int, string> Persons in ListaDePersonajes)
                         {

@@ -12,3 +12,4 @@ C:\Users\Kevin Emilio\Programación\Proyectos\Proyecto Beta\obj\Debug\net8.0\ref
 C:\Users\Kevin Emilio\Programación\Proyectos\Proyecto Beta\obj\Debug\net8.0\Proyecto Beta.pdb
 C:\Users\Kevin Emilio\Programación\Proyectos\Proyecto Beta\obj\Debug\net8.0\Proyecto Beta.genruntimeconfig.cache
 C:\Users\Kevin Emilio\Programación\Proyectos\Proyecto Beta\obj\Debug\net8.0\ref\Proyecto Beta.dll
+C:\Users\Kevin Emilio\Programación\Proyectos\Proyecto Beta\obj\Debug\net8.0\Proyecto Beta.sourcelink.json

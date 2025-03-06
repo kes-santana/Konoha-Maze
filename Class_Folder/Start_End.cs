@@ -159,9 +159,9 @@ public class Start_End
         {
             for (int j = 0; j < Board.board2.GetLength(1); j++)
             {
-                if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.Neblina) Console.Write("n");
-                else if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.PergaminoTrampa) Console.Write("p");
-                else if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.TrampaTerrestre) Console.Write("t");
+                if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.Neblina) Console.Write(" ");
+                else if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.PergaminoTrampa) Console.Write(" ");
+                else if (Board.TrampBoard[i, j] == (int)Tramp.TypeOfTramp.TrampaTerrestre) Console.Write(" ");
                 else if (Board.mask[i, j] == true) { Console.Write("#"); }
                 else if (Board.mask[i, j] == false && Board.TrampBoard[i, j] == 0 && Board.board2[i, j] != (int)Box.BoxType.Wood) { Console.Write(" "); }
                 else if (Board.board2[i, j] == (int)Box.BoxType.Wood) { Console.Write("w"); }
